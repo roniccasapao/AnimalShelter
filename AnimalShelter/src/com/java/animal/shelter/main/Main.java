@@ -5,9 +5,10 @@ import com.java.animal.shelter.ui.AnimalShelterUI;
 public class Main {
 
 	public static void main(String[] args) {
-		AnimalShelterUI animalShelterUI = new AnimalShelterUI();
-		animalShelterUI.homePageUi();
-
+		AnimalShelterUI aShelterUI = new AnimalShelterUI();
+		aShelterUI.homePageUi();
+		
+		
 	}
 
 }
