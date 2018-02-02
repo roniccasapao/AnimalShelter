@@ -14,6 +14,10 @@ public class AnimalShelterUI {
 	public String name;
 	public String age;
 	public String gender;
+	
+	public void newSample() {
+		//do something
+	}
 
 	public void homePageUi() {
 		Scanner input = new Scanner(System.in);
