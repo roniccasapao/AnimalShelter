@@ -1,7 +1,7 @@
 package com.java.animal.shelter.bean;
 
-public class Dog extends Animal{
-	
+public class Dog extends Animal {
+
 	private String type = "dog";
 	private String sound = "arf arf";
 
@@ -9,7 +9,7 @@ public class Dog extends Animal{
 	public String sound() {
 		return sound;
 	}
-	
+
 	public String getType() {
 		return type;
 	}

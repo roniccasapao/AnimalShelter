@@ -14,13 +14,13 @@ public class AnimalShelterUI {
 	public String name;
 	public String age;
 	public String gender;
-	
+
 	public void newSample() {
-		//do something
+		// do something
 	}
-	
+
 	public void methodSample() {
-		// test 
+		// test
 	}
 
 	public void homePageUi() {
@@ -28,7 +28,7 @@ public class AnimalShelterUI {
 
 		do {
 
-			System.out.println("Welcome to Shei’s Animal Shelter!");
+			System.out.println("Welcome to Sheiï¿½s Animal Shelter!");
 			System.out.println("Please select an option:");
 
 			boolean isAnimalListFull = animalShelterManager.isListFull;
@@ -144,7 +144,7 @@ public class AnimalShelterUI {
 		gender = animalDetailsInput.nextLine();
 
 	}
-	
-	//tried another here
+
+	// tried another here
 
 }

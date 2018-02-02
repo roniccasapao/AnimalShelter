@@ -63,16 +63,14 @@ public class AnimalShelterManager {
 			animals.add(animal);
 			isAnimalAdded = true;
 			isListFull = false;
-		}else {
+		} else {
 			isListFull = true;
 		}
-		
+
 		setReferenceId(animal);
-		
 
 		return isAnimalAdded;
 	}
-	
 
 	public void setReferenceId(Animal animal) {
 		animal.setReferenceId(animal.staticId);
@@ -88,7 +86,7 @@ public class AnimalShelterManager {
 				animals.remove(index);
 				isRemoved = true;
 				break;
-			}else {
+			} else {
 				isRemoved = false;
 			}
 			index++;
@@ -108,8 +106,7 @@ public class AnimalShelterManager {
 		}
 		return animalDetails;
 	}
-	
-	//added something for git
-	
+
+	// added something for git
 
 }
