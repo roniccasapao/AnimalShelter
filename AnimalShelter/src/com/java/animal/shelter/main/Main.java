@@ -9,6 +9,7 @@ public class Main {
 		aShelterUI.homePageUi();
 		
 		String hello = "Hi from Sheila!";
+		String another = "Another conflict from sheila";
 		
 	}
 
