@@ -18,6 +18,10 @@ public class AnimalShelterUI {
 	public void newSample() {
 		//do something
 	}
+	
+	public void methodSample() {
+		// test 
+	}
 
 	public void homePageUi() {
 		Scanner input = new Scanner(System.in);
