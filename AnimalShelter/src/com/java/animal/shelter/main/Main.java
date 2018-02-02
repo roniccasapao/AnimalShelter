@@ -8,6 +8,7 @@ public class Main {
 		AnimalShelterUI aShelterUI = new AnimalShelterUI();
 		aShelterUI.homePageUi();
 		
+		String hello = "Hi from Sheila!"
 		
 	}
 
